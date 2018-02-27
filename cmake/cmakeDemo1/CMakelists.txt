@@ -1,0 +1,22 @@
+# Minist required version of cmake
+cmake_minimum_required(VERSION 3.2)
+
+#set compiler
+set(CMAKE_C_COMPILER gcc)
+set(CMAKE_CXX_COMPILER g++)
+
+# Project Name
+project(Demo1)
+
+# Reference dir
+include_directories(inc)
+
+# Source Dir 
+aux_source_directory(src DIR_SRCS)
+
+# Target name
+add_executable(demo1 ${DIR_SRCS})
+
+# Add link library
+# TARGET_LINK_LIBRARIES(${PROJECT_NAME} m)
+
