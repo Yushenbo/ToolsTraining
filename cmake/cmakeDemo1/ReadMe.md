@@ -1,3 +1,16 @@
+
+Directories instructure
+
+    .
+    |---CMakelists.txt
+    |---inc
+    |   |--- pow.h
+    |
+    |---src
+        |--- main.c
+        |--- pow.c
+
+
 How to compiler
 
     mkdir -p build
