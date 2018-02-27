@@ -1,5 +1,5 @@
 
-Directories instructure
+Directories Scope
 
     .
     |---CMakelists.txt
